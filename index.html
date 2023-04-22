@@ -1,27 +1,40 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
   <head>
-    <meta charset="UTF-8">
-    <title>Fork Me! FCC: Test Suite Template</title>
-    <link rel="stylesheet" href="css/style.css">
+    <title>My Personal Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
   </head>
-
   <body>
-    <h1>Hello World, we are software developers!</h1>
-    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
-
-    <!--
-
-    Hello Camper!
-
-    For now, the test suite only works in Chrome!
-    Please read the README below in the JS Editor before beginning.
-    Feel free to delete this message once you have read it.
-    Good luck and Happy Coding!
-
-    - The freeCodeCamp Team
-
-    -->
-    <script  src="js/index.js"></script>
+    <nav id="navbar">
+      <ul>
+        <li><a href="#welcome-section">Home</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a id="profile-link" href="https://github.com/myusername" target="_blank">My GitHub</a></li>
+      </ul>
+    </nav>
+    <header id="welcome-section">
+      <h1>Welcome to my Personal Portfolio!</h1>
+    </header>
+    <section id="projects">
+      <div class="project-tile">
+        <h2>Project 1</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec quis ex sapien. Nam malesuada arcu a mauris ultricies, eget dignissim ex consectetur.</p>
+        <a href="#">View Project</a>
+      </div>
+      <div class="project-tile">
+        <h2>Project 2</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec quis ex sapien. Nam malesuada arcu a mauris ultricies, eget dignissim ex consectetur.</p>
+        <a href="#">View Project</a>
+      </div>
+    </section>
+    <footer id="contact">
+      <p>Contact Me:</p>
+      <ul>
+        <li><a href="mailto:myemail@example.com">Email</a></li>
+        <li><a href="https://linkedin.com/in/myusername" target="_blank">LinkedIn</a></li>
+        <li><a href="https://twitter.com/myusername" target="_blank">Twitter</a></li>
+      </ul>
+    </footer>
   </body>
 </html>
